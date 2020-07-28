@@ -88,7 +88,7 @@ programmer_hash =
 
   }
 
-def new_key =  [:yukihiro_matsumoto] => {
+def new_key =  :yukihiro_matsumoto => {
     :known_for => "Ruby",
      :languages => ["LISP", "C"]
    }
