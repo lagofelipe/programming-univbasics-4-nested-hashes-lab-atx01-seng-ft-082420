@@ -93,7 +93,7 @@ programmer_hash =  :yukihiro_matsumoto => {
      :languages => ["LISP", "C"]
    }
 programmer_hash
-p programmer_hash
+puts programmer_hash
 
 end
 
