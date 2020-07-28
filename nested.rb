@@ -87,16 +87,12 @@ programmer_hash =
     }
 
   }
-
-def new_key =  :yukihiro_matsumoto => {
-    :known_for => "Ruby",
-     :languages => ["LISP", "C"]
-   }
-programmer_hash = new_key
-
-
+programmer_hash[:yukihiro_matsumoto]= {}
+programmer_hash[:yukihiro_matsumoto][:known_for] => "Ruby"
+programmer_hash[:yukihiro_matsumoto][:languages]=> ["LISP", "C"]
 programmer_hash
- p programmer_hash
+
+
 
 end
 
