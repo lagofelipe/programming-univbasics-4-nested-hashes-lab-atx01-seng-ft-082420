@@ -96,7 +96,7 @@ programmer_hash = new_key
 
 
 programmer_hash
-puts programmer_hash
+ p programmer_hash
 
 end
 
