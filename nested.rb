@@ -88,10 +88,13 @@ programmer_hash =
 
   }
 
-programmer_hash =  [:yukihiro_matsumoto] => {
+def new_key =  [:yukihiro_matsumoto] => {
     :known_for => "Ruby",
      :languages => ["LISP", "C"]
    }
+programmer_hash = new_key
+
+
 programmer_hash
 puts programmer_hash
 
